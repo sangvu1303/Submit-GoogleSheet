@@ -40,7 +40,7 @@ document.querySelector('#submit-form').onsubmit = function(e) {
         if (Object.keys(error).length==0){
             //không có lỗi --> lấy và gửi dữ liệu
             let data = {
-                'entry.189044527':fullname,
+                'entry.189044527':fullname, //tùy từng form sheet sẽ có entry khác nhau 
                 'entry.1921041377':email,
                 'entry.435364288':phone
             }
